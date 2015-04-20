@@ -58,8 +58,11 @@ typedef unsigned char prog_uchar;
 #define INITR_REDTAB   0x1
 #define INITR_BLACKTAB   0x2
 
+#define INITR_144GREENTAB   0x1
+
 #define ST7735_TFTWIDTH  128
 #define ST7735_TFTHEIGHT 160
+#define ST7735_TFTHEIGHT_144 128
 
 #define ST7735_NOP     0x00
 #define ST7735_SWRESET 0x01
